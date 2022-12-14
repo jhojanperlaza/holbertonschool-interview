@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Lockboxes challenge"""
 
+
 def canUnlockAll(boxes):
     """Returns true if if all boxes can be opened, else return False"""
     unlocked = [0]
