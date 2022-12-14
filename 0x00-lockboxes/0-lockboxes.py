@@ -1,6 +1,8 @@
 #!/usr/bin/python3
+"""Lockboxes challenge"""
 
 def canUnlockAll(boxes):
+    """Returns true if if all boxes can be opened, else return False"""
     unlocked = [0]
     for box_id, box in enumerate(boxes):
         if not box:
