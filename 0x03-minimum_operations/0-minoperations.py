@@ -4,6 +4,7 @@ Minimum Operations
 video guia: https://www.youtube.com/watch?v=03ZepmoVJGI&ab_channel=TECHDOSE
 """
 
+
 """V1
 def minOperations(n):
     if n <= 1:
@@ -20,6 +21,7 @@ def minOperations(n):
 
     return(num_op)
 """
+
 
 def minOperations(n):
     if n <= 1:
